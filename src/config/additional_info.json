@@ -1,0 +1,20 @@
+{
+    "error_msg":{
+        "no_connected": {
+            "title": "Problemas de Conexion"
+            "measure_name": "Datos No Recibidos"
+            "description": "Lectora desconectada"
+        },
+        "sensor_failure": {
+            "title": "Problemas de  Conexion de Sensores"
+            "measure_name": "{}"
+            "description": "Falla en la conexion de los sensores {} "
+        }
+    },
+    "sensors_properties": [
+        {
+            "name": "humedity",
+            "sensor_reference": "DHT11"
+        }
+    ]
+}
